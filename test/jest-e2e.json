@@ -1,0 +1,16 @@
+{
+  "moduleFileExtensions": ["js", "json", "ts"],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "^@/(.*)$": "<rootDir>/../src/$1",
+    "^@decorators/(.*)$": "<rootDir>/../src/common/decorators/$1",
+    "^@guards/(.*)$": "<rootDir>/../src/common/guards/$1",
+    "^@helpers/(.*)$": "<rootDir>/../src/common/helpers/$1",
+    "^@middleware/(.*)$": "<rootDir>/../src/common/middleware/$1"
+  }
+}
